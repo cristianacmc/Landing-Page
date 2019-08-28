@@ -118,5 +118,35 @@ ul {
 	background-color: orange;
 	margin-top: 10px;
 	font-size: 1em;
+}
 
+footer {
+	background-color: #ddd;
+	width: 100%;
+}
+
+.foot-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+footer a {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 0.9em;
+	text-decoration: none;
+	color: black;
+	padding: 20px 10px 0 10px;
+	font-weight: bold;
+}
+
+.copy {
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.8em;
+	color: #444;
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 15px 15px 0;
+	margin-top: 10px;
 }
