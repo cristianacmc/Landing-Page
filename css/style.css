@@ -9,12 +9,12 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	grid-template-rows: 70px;
+	padding: 10px 15px 0 10px;
 }
 
 .logo {
 	width: 60vw;
 	display: flex;
-
 }
 
 .logo img {
@@ -22,7 +22,6 @@ body {
 	max-width: 40px;
 	max-height: 40px;
 	grid-column: 1 / 2;
-
 }
 
 .logo p {
@@ -34,7 +33,22 @@ body {
 
 #links {
 	grid-column: 2 / 4;
-	justify-self: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#links a {
+	text-decoration: none;
+	color: black;
+}
+
+#links a:hover {
+	color: #d99f0d;
+}
+
+li {
+	cursor: pointer;
 }
 
 #header {
@@ -48,7 +62,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
-#form{
+#form {
 	text-align: center;
 	grid-row: 2 / 3;
 }
