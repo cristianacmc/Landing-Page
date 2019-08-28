@@ -44,7 +44,7 @@ body {
 }
 
 #links a:hover {
-	color: #d99f0d;
+	color: orange;
 }
 
 li {
@@ -169,6 +169,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	padding-top: 20px;
 }
 
 footer a {
@@ -177,7 +178,7 @@ footer a {
 	font-size: 0.9em;
 	text-decoration: none;
 	color: black;
-	padding: 20px 10px 0 10px;
+	padding-right: 20px;
 	font-weight: bold;
 }
 
