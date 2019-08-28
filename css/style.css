@@ -1,0 +1,122 @@
+body {
+	width: 100%;
+	font-style: sans-serif;
+	vertical-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#nav-bar {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 70px;
+}
+
+#logo {
+	grid-column: 1 / 2;
+
+}
+
+#links {
+	grid-column: 2 / 4;
+	justify-self: center;
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+}
+
+#title {
+	text-align: center;
+	grid-row: 1 / 2;
+	font-family: 'Poppins', sans-serif;
+}
+
+#form{
+	text-align: center;
+	grid-row: 2 / 3;
+}
+
+#email {
+
+}
+
+#submit {
+	margin: 15px 0 15px 0;
+}
+
+main {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+#content {
+	display: grid;
+	grid-template-columns: .5fr 4fr;
+	grid-column-gap: 70px;
+	margin: 60px auto 0 auto;
+}
+
+.icon {
+	grid-column: 1 / 2;
+	align-self: center;
+	justify-self: end;
+	font-size: 2em;
+	color: orange;
+	padding-right: 20px;
+}
+
+.desc {
+	grid-column: 2 / 3;
+}
+
+#video {
+	text-align: center;
+	margin: 60px auto 30px auto;
+}
+
+#products {
+	display: flex;
+	flex-direction: row ;
+	justify-content: center;
+	width: 100%;
+	margin: 50px 0 50px 0;
+}
+
+.unit {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: calc(100% / 3);
+	border: 1px solid black;
+	border-radius: 3px;
+	text-align: center;
+	margin: 10px;
+}
+
+#instrument {
+	background-color: #ddd;
+	width: 100%;
+	padding: 15px 0 15px 0;
+	margin-top: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#price {
+	margin-top: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#select {
+	padding: 10px 25px 10px 25px;
+	background-color: orange;
+	margin-top: 10px;
+	font-size: 1em;
+
+}
