@@ -6,10 +6,13 @@ body {
 }
 
 #nav-bar {
+	position: fixed;
+	top: 0;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	grid-template-rows: 70px;
 	padding: 10px 15px 0 10px;
+	background-color: white;
 }
 
 .logo {
@@ -52,6 +55,7 @@ li {
 }
 
 #header {
+	margin: 60px auto 0 auto ;
 	display: flex;
 	flex-direction: column;
 }
