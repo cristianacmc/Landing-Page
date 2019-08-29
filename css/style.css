@@ -230,3 +230,27 @@ footer a {
 	}
 
 }
+
+@media (max-width: 600px) {
+
+	#title h2 {
+		font-size: 1.2em;
+	}
+
+	.icon {
+		display: none;
+	}
+
+	#content {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.desc h2 {
+		margin-bottom: 10px;
+	}
+
+
+
+}
