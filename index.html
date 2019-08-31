@@ -12,29 +12,29 @@
 
 </head>
 <body>
+	<header id="header">
+		<nav id="nav-bar">
+			<div class="logo">
+				<img id="header-img" src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjU6oy9gKnkAhXrVBUIHe3WDXgQjRx6BAgBEAQ&url=https%3A%2F%2Ffreerangestock.com%2Fphotos%2F117973%2Fjazz-silhouette-.html&psig=AOvVaw2oaBHQ79m8MS0vbtYvMGOQ&ust=1567199826987307" alt=" logo of the company">
+				<p>Original Trombones</p>
+			</div>
+			<div id="navlink">
+				<a class="nav-link" href="#content">Features</a>
+				<a class="nav-link" href="#video">How it Works</a>
+				<a class="nav-link" href="#products">Pricing</a>
+			</div>
+		</nav>
+	</header>
 
-	<nav id="nav-bar">
-		<div class="logo">
-			<img id="header-img" src="image/logo.png" alt=" logo of the company">
-			<p>Original Trombones</p>
-		</div>
-		<div id="links">
-			<a href="#">Features</a>
-			<a href="#">How it Works</a>
-			<a href="#">Pricing</a>
-		</div>
-	</nav>
-
-	<section id="header">
+	<section id="header2">
 		<div id="title">
 			<h2>Handcrafted, home-made masterpieces</h2>
 		</div>
-		<form id="form">
-			<form action="mailto:https://www.freecodecamp.com/email-submit" method="GET">
-			<input id="email" class="myemail" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" type="email" required placeholder="Enter your email"><br>
-			<a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
-			<button id="submit" type="submit" placeholder="#">GET STARTED</button>
-			</a>
+		<form id="form" action="mailto:https://www.freecodecamp.com/email-submit">
+			<input id="email" type="email" name="email" required placeholder="Enter your email">
+			<br>
+			<input type="submit" id="submit" value="GET STARTED" placeholder="#">
+
 
 		</form>
 	</section>
@@ -67,11 +67,11 @@
 			</div>
 		</div>
 
-		<section id="video">
-			<video width="540" height="310" controls>
-				<source src="videos/1.mp4" type="video/mp4">
-			</video>
-		</section>
+
+		<video id="video" width="540" height="310" controls>
+			<source src="videos/1.mp4" type="video/mp4">
+		</video>
+
 
 		<section id="products">
 			<div class="unit">
@@ -125,5 +125,6 @@
 		</footer>
 
 	</main>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

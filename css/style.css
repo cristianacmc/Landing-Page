@@ -11,13 +11,14 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	grid-template-rows: 70px;
-	padding: 10px 15px 0 10px;
+	padding: 10px 25px 0 10px;
 	background-color: white;
 }
 
 .logo {
 	width: 60vw;
 	display: flex;
+	grid-column: 1 / 2;
 }
 
 .logo img {
@@ -34,19 +35,18 @@ body {
 	color:  #d99f0d;
 }
 
-#links {
-	grid-column: 2 / 4;
+#navlink {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+
 }
 
-#links a {
+#nav-bar a {
 	text-decoration: none;
 	color: black;
 }
 
-#links a:hover {
+#nav-bar a:hover {
 	color: orange;
 }
 
@@ -54,7 +54,7 @@ li {
 	cursor: pointer;
 }
 
-#header {
+#header2 {
 	margin: 60px auto 0 auto ;
 	display: flex;
 	flex-direction: column;
@@ -126,7 +126,10 @@ main {
 }
 
 #video {
-	text-align: center;
+	display: block;
+	max-width: 500px;
+	width: 100%;
+	justify-content:  center;
 	margin: 60px auto 30px auto;
 }
 
