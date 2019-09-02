@@ -17,7 +17,6 @@ body {
 	grid-template-rows: 70px;
 	padding: 10px 25px 0 10px;
 	background-color: white;
-
 }
 
 .logo {
@@ -264,6 +263,20 @@ footer a {
 		margin-bottom: 10px;
 	}
 
+	#navlink {
+		display: flex;
+		flex-direction: column;
+		float: right;
+		padding: 0;
+	}
 
+	.nav-link {
+		margin: 2px;
+		text-align: right;
+	}
+
+	#header2 {
+		margin-top: 80px;
+	}
 
 }
