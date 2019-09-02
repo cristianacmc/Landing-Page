@@ -5,6 +5,10 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+#header2 {
+	margin-top: 100px ;
+}
+
 #nav-bar {
 	position: fixed;
 	top: 0;
@@ -13,6 +17,7 @@ body {
 	grid-template-rows: 70px;
 	padding: 10px 25px 0 10px;
 	background-color: white;
+
 }
 
 .logo {
@@ -38,6 +43,7 @@ body {
 #navlink {
 	display: flex;
 	justify-content: space-between;
+	padding: 10px 25px 0 0;
 
 }
 
