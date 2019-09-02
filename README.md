@@ -1,6 +1,6 @@
 # Responsive Web Design Projects - Build a Product Landing Page
 
-###In order to complete this project I have to fulfill all the user stoies bellow:
+### In order to complete this project I have to fulfill all the user stoies bellow:
 
 - User Story #1: My product landing page should have a header element with a corresponding id="header".
 
